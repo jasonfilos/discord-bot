@@ -1,0 +1,7 @@
+D:\Documents\SharpDevelop Projects\Discord-Bot\Discord-Bot\obj\Debug\Discord-Bot.csprojResolveAssemblyReference.cache
+D:\Documents\SharpDevelop Projects\Discord-Bot\Discord-Bot\bin\Debug\Discord-Bot.exe
+D:\Documents\SharpDevelop Projects\Discord-Bot\Discord-Bot\bin\Debug\Discord-Bot.pdb
+D:\Documents\SharpDevelop Projects\Discord-Bot\Discord-Bot\obj\Debug\Discord-Bot.exe
+D:\Documents\SharpDevelop Projects\Discord-Bot\Discord-Bot\obj\Debug\Discord-Bot.pdb
+D:\Documents\SharpDevelop Projects\Discord-Bot\Discord-Bot\obj\Debug\Discord_Bot.MainForm.resources
+D:\Documents\SharpDevelop Projects\Discord-Bot\Discord-Bot\obj\Debug\Discord-Bot.csproj.GenerateResource.Cache
