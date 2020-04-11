@@ -24,13 +24,13 @@ namespace Discord_Bot
 			// The InitializeComponent() call is required for Windows Forms designer support.
 			//
 			InitializeComponent();
-			for (int i = 0; i < 50; i++) 
+			for (int i = 0; i < 1000; i++) 
 			{
 				/*
 				Step1 : pls fish
 				 */
 				
-				double randNormal = generateGaussian(50,6);
+				double randNormal = generateGaussian(20,6);
 				int t1 = 1000*(int)randNormal;
 				
 				Thread.Sleep(t1);
@@ -40,7 +40,7 @@ namespace Discord_Bot
 				Step2 : pls beg
 				 */			
 				
-				double randNormal2 = generateGaussian(20,4);
+				double randNormal2 = generateGaussian(10,4);
 				int t2 = 1000*(int)randNormal2;
 					
 				Thread.Sleep(t2);
@@ -50,7 +50,7 @@ namespace Discord_Bot
 				Step3 : pls trivia
 				 */			
 				
-				double randNormal3 = generateGaussian(40,5);
+				double randNormal3 = generateGaussian(10,3);
 				int t3 = 1000*(int)randNormal3;
 					
 				Thread.Sleep(t3);
@@ -60,7 +60,7 @@ namespace Discord_Bot
 				Step3.5 : answer trivia (a/b/c/d)
 				 */		
 				
-				double randNormal4 = generateGaussian(5,2);
+				double randNormal4 = generateGaussian(6,2);
 				int t4 = 1000*(int)randNormal4;
 				
 				Thread.Sleep(t4);
@@ -91,11 +91,44 @@ namespace Discord_Bot
 				Step4 : pls beg
 				 */		
 				
-				double randNormal5 = generateGaussian(20,4);
+				double randNormal5 = generateGaussian(15,3);
 				int t5 = 1000*(int)randNormal5;
 					
 				Thread.Sleep(t5);
-				SendKeys.SendWait("pls beg~");			
+				SendKeys.SendWait("pls beg~");		
+				
+				/*
+				Step5 : Use object (bread, candy, chill pill, cookie)
+				 */		
+				
+				double randNormal4 = generateGaussian(5,2);
+				int t4 = 1000*(int)randNormal4;
+				
+				Thread.Sleep(t4);
+				Random randtest = new Random();
+				double test = randtest.NextDouble();
+				if (test >= 0 & test < 0.25)
+				{
+					SendKeys.SendWait("pls use bread~");
+				}
+				else if (test >= 0.25 & test < 0.5)
+				{
+					SendKeys.SendWait("pls use candy~");
+				}
+				else if (test >= 0.5 & test < 0.75)
+				{
+					SendKeys.SendWait("pls use chill~");
+				}
+				else if (test >= 0.75 & test < 1.0)
+				{
+					SendKeys.SendWait("pls use cookie~");
+				}
+				else
+				{
+					SendKeys.SendWait("a~");
+				}
+
+								
 			}
 			
 		}
@@ -110,9 +143,9 @@ namespace Discord_Bot
 
 		void Button1Click(object sender, EventArgs e)
 		{
-			//double test = generateGaussian(0,1);
+			//double test = generateGaussian(20,5);
 			//label1.Text = test.ToString();
-//			//label1.Text=textBox1.Text;
+			//label1.Text=textBox1.Text;
 //			if (test < 0.5 & test > 0.25)
 //			{
 //				label1.Text = test.ToString();
