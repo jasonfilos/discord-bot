@@ -101,31 +101,31 @@ namespace Discord_Bot
 				Step5 : Use object (bread, candy, chill pill, cookie)
 				 */		
 				
-				double randNormal4 = generateGaussian(5,2);
-				int t4 = 1000*(int)randNormal4;
+				double randNormal6 = generateGaussian(5,2);
+				int t6 = 1000*(int)randNormal6;
 				
-				Thread.Sleep(t4);
-				Random randtest = new Random();
-				double test = randtest.NextDouble();
-				if (test >= 0 & test < 0.25)
+				Thread.Sleep(t6);
+				Random randtest2 = new Random();
+				double test2 = randtest2.NextDouble();
+				if (test2 >= 0 & test2 < 0.25)
 				{
 					SendKeys.SendWait("pls use bread~");
 				}
-				else if (test >= 0.25 & test < 0.5)
+				else if (test2 >= 0.25 & test2 < 0.5)
 				{
 					SendKeys.SendWait("pls use candy~");
 				}
-				else if (test >= 0.5 & test < 0.75)
+				else if (test2 >= 0.5 & test2 < 0.75)
 				{
 					SendKeys.SendWait("pls use chill~");
 				}
-				else if (test >= 0.75 & test < 1.0)
+				else if (test2 >= 0.75 & test2 < 1.0)
 				{
 					SendKeys.SendWait("pls use cookie~");
 				}
 				else
 				{
-					SendKeys.SendWait("a~");
+					SendKeys.SendWait("pls use candy~");
 				}
 
 								
