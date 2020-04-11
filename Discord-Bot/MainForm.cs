@@ -50,7 +50,7 @@ namespace Discord_Bot
 				Step3 : pls trivia
 				 */			
 				
-				double randNormal3 = generateGaussian(10,3);
+				double randNormal3 = generateGaussian(10,2);
 				int t3 = 1000*(int)randNormal3;
 					
 				Thread.Sleep(t3);
@@ -60,7 +60,7 @@ namespace Discord_Bot
 				Step3.5 : answer trivia (a/b/c/d)
 				 */		
 				
-				double randNormal4 = generateGaussian(6,2);
+				double randNormal4 = generateGaussian(6,1);
 				int t4 = 1000*(int)randNormal4;
 				
 				Thread.Sleep(t4);
@@ -91,7 +91,7 @@ namespace Discord_Bot
 				Step4 : pls beg
 				 */		
 				
-				double randNormal5 = generateGaussian(15,3);
+				double randNormal5 = generateGaussian(20,3);
 				int t5 = 1000*(int)randNormal5;
 					
 				Thread.Sleep(t5);
@@ -126,6 +126,7 @@ namespace Discord_Bot
 				else
 				{
 					SendKeys.SendWait("pls use candy~");
+						
 				}
 
 								
