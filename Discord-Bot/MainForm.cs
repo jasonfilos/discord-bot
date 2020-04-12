@@ -30,7 +30,7 @@ namespace Discord_Bot
 				Step1 : pls fish
 				 */
 				
-				double randNormal = generateGaussian(20,6);
+				double randNormal = generateGaussian(20,3);
 				int t1 = 1000*(int)randNormal;
 				
 				Thread.Sleep(t1);
@@ -40,7 +40,7 @@ namespace Discord_Bot
 				Step2 : pls beg
 				 */			
 				
-				double randNormal2 = generateGaussian(10,4);
+				double randNormal2 = generateGaussian(10,2);
 				int t2 = 1000*(int)randNormal2;
 					
 				Thread.Sleep(t2);
@@ -101,7 +101,7 @@ namespace Discord_Bot
 				Step5 : Use object (bread, candy, chill pill, cookie)
 				 */		
 				
-				double randNormal6 = generateGaussian(5,2);
+				double randNormal6 = generateGaussian(6,1);
 				int t6 = 1000*(int)randNormal6;
 				
 				Thread.Sleep(t6);
